@@ -41,21 +41,6 @@
             <artifactId>springfox-swagger2</artifactId>
             <version>2.9.2</version>
         </dependency>
-
-<!--        <dependency>-->
-<!--            <groupId>io.springfox</groupId>-->
-<!--            <artifactId>springfox-swagger-ui</artifactId>-->
-<!--            <version>2.9.2</version>-->
-<!--        </dependency>-->
-
-<<<<<<< HEAD
-<!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.github.xiaoymin/swagger-bootstrap-ui &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.github.xiaoymin</groupId>-->
-<!--            <artifactId>swagger-bootstrap-ui</artifactId>-->
-<!--            <version>1.9.3</version>-->
-<!--        </dependency>-->
-
         <!-- https://mvnrepository.com/artifact/com.github.xiaoymin/knife4j-spring-boot-starter -->
         <dependency>
             <groupId>com.github.xiaoymin</groupId>
@@ -69,14 +54,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
             <version>2.3.1.RELEASE</version>
-=======
-        <!-- https://mvnrepository.com/artifact/com.github.xiaoymin/swagger-bootstrap-ui -->
-        <dependency>
-            <groupId>com.github.xiaoymin</groupId>
-            <artifactId>swagger-bootstrap-ui</artifactId>
-            <version>1.9.3</version>
->>>>>>> 033e15f5aba3d13745c05881e7c93cd442b2b151
-        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>

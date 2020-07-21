@@ -1,9 +1,6 @@
 package com.swaggerui.config;
 
-<<<<<<< HEAD
 import com.github.xiaoymin.knife4j.spring.annotations.EnableKnife4j;
-=======
->>>>>>> 033e15f5aba3d13745c05881e7c93cd442b2b151
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.PathSelectors;
@@ -27,10 +24,7 @@ import java.util.ArrayList;
  */
 @Configuration
 @EnableSwagger2
-<<<<<<< HEAD
 @EnableKnife4j
-=======
->>>>>>> 033e15f5aba3d13745c05881e7c93cd442b2b151
 public class SwaggerConfig {
 
 //    设置分组
@@ -67,12 +61,9 @@ public class SwaggerConfig {
     @Bean
     public Docket docket(){
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo())
-<<<<<<< HEAD
                 /*忽略一些内部调用的参数
                     .ignoredParameterTypes
                  */
-=======
->>>>>>> 033e15f5aba3d13745c05881e7c93cd442b2b151
                 .ignoredParameterTypes(HttpSession.class,HttpServletRequest.class,HttpServletResponse.class)
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("com.swaggerui.controller"))
